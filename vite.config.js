@@ -6,7 +6,7 @@ export default defineConfig(() => {
   // Get the correct base URL depending on the build mode
 
   return {
-    base: '/<covidstats>/',
+    base: '/covidstats/',
     plugins: [react()]
   };
 });

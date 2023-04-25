@@ -1,0 +1,39 @@
+@import "./assets/variables";
+:root {
+  background: $primary-background;
+}
+
+a {
+  color: $action-purple;
+  font-weight: 500;
+  text-decoration: none;
+}
+a:hover {
+  color: #844698;
+}
+
+body {
+  margin: 0;
+  color: $text-color;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.button {
+  border: none;
+  cursor: pointer;
+  line-height: 0.5;
+  padding: 1rem 2rem 1rem 2rem;
+  border-radius: 1rem;
+  margin-left: 0.5rem;
+  color: $text-color;
+   @media (max-width: 768px) {
+    line-height: 1;
+  }
+
+}
+
+.outlined {
+   border: 2px solid $action-purple;
+  }
+

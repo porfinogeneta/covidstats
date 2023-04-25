@@ -1,0 +1,19 @@
+@import "../assets/variables";
+
+.searchbar-container {
+  display: flex;
+  align-items: center;
+  @media (max-width: 768px) {
+      flex-direction: column;
+      gap: 0.5rem;
+      margin-bottom: 2rem;
+    }
+  .input-search {
+    border-radius: 1rem;
+    background: $primary-section;
+    border: none;
+    padding: 1rem;
+    color: $text-color;
+    outline: none;
+  }
+}

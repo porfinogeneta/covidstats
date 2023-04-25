@@ -1,0 +1,33 @@
+@import "../assets/variables.scss";
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  //background-color: #4FA356;
+  min-height: 70vh;
+  margin-left: $desktop-margin;
+  margin-right: $desktop-margin;
+   @media (max-width: 768px) {
+      margin-left: 0.5rem;
+      margin-right: 0.5rem;
+    }
+  .main-title {
+    //background-color: #D43534;
+    //flex-basis: 70%;
+    margin-right: auto;
+    margin-bottom: 0;
+
+  }
+  .main-paragraph {
+    width: 70%;
+    margin-right: auto;
+    background-color: #1C2135;
+    @media (max-width: 768px) {
+      width: 100%;
+      margin-right: 0;
+       line-height: 1.5;
+    }
+  }
+}

@@ -1,0 +1,11 @@
+@import "../assets/variables";
+
+.footer-container {
+  flex-shrink: 0;
+  background: $primary-section;
+  margin-top: 6rem;
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,27 @@
+@import "../assets/variables";
+
+.table-container {
+  margin: 0 $desktop-margin;
+  @media (max-width: 768px) {
+      margin: 0 0.5rem;
+    }
+  //display: flex;
+  //flex-direction: column;
+  min-height: 20vh;
+  table {
+    width: 100%;
+    border-collapse: collapse;
+
+    .table-row {
+      display: flex;
+
+      .table-cell {
+        flex-grow: 1;
+        width: 20%;
+        text-align: center;
+        padding: 1rem;
+        //border: 1px solid #ccc;
+      }
+    }
+  }
+}

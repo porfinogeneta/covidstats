@@ -1,0 +1,15 @@
+@import "../assets/variables";
+
+.headers-container {
+  display: flex;
+  margin-top: 6rem;
+  margin-bottom: 0.5rem;
+  //margin-inline: $desktop-margin;
+  background: $primary-section;
+  border-radius: 1rem;
+  padding: 1.5rem 0 1.5rem 0;
+  > * {
+    background-color: #4FA356;
+    width: 25%;
+  }
+}

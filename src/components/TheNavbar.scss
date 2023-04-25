@@ -1,0 +1,36 @@
+@import "../assets/variables";
+
+.nav-container {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .nav-title {
+    flex-basis: 60%;
+    margin-left: $desktop-margin;
+    text-align: left;
+    letter-spacing: 2px;
+    font-weight: normal;
+    @media (max-width: 768px) {
+        margin-left: 0.5rem;
+      }
+  }
+  .nav-search {
+    display: flex;
+    align-items: center;
+    margin-right: $desktop-margin;
+    flex-grow: 1;
+    text-align: center;
+    > *:first-child {
+      @media (max-width: 768px) {
+        display: none;
+      }
+    }
+    @media (max-width: 768px) {
+        margin-right: 0;
+      }
+
+
+  }
+}

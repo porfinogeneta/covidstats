@@ -12,6 +12,10 @@ export default defineConfig(({ mode }) => {
     plugins: [react(), reactRefresh()],
     build: {
       outDir: 'docs',
+      assetsDir: '',
+      rollupOptions: {
+        input: '/src/index.html',
+      },
     },
   };
 });

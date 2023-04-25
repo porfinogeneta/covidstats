@@ -5,7 +5,9 @@ import './index.scss'
 import GlobalStateProvider from "./state/GlobalStateProvider.jsx";
 
 ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
     <GlobalStateProvider>
       <App />
     </GlobalStateProvider>
+  </React.StrictMode>,
 )
